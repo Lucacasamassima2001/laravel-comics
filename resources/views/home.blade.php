@@ -8,7 +8,7 @@
     </head>
     <body>
         {{-- HEADER --}}
-        @include('header') 
+        @include('partials/header') 
         <main>
             <div class="jumbotron">
             </div> 
@@ -25,6 +25,6 @@
             </div>
         </main>
         {{-- FOOTER --}}
-        @include('footer')
+        @include('partials/footer')
     </body>
 </html>

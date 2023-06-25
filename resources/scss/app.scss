@@ -12,7 +12,7 @@ body {
 header{
   background-color: $base-color;
     width: 80%;
-    height: 130px;
+    height: 100px;
     @include align-justify-center;
     img{
       height: 70px;
@@ -20,23 +20,26 @@ header{
   }
 
 nav{
-    height: 100%;
     @include align-center;
+    height: 100%;
+    margin-bottom: 0;
   }
   
 .nav-list{
+    height: 100%;
     @include align-center;
     gap: 1em;
     list-style: none;
-    height: 100%;
+    margin-bottom: 0;
   }
 
   
   .nav-item{
-    @include align-center;
     height: 100%;
+    @include align-center;
     padding: .5em;
     font-size: 12px;
+    margin-bottom: 0;
     &:hover{
       border-bottom: 3px solid $brand-color;
       cursor: pointer;
@@ -49,13 +52,16 @@ nav{
     a{
     text-decoration: none;
     color: black;
+    height: 100%;
+    display: flex;
+    align-items: center;
     }
   }
 
   // MAIN/HOME
-main{
-  background-color: rgba(28,28,28,255);
-}
+  main{
+    background-color: rgba(28,28,28,255);
+  }
 
   .jumbotron{
     height: 350px;

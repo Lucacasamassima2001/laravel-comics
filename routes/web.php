@@ -231,3 +231,46 @@ Route::get('/', function () {
         
     ]);
 });
+
+Route::get('/news', function () {
+    return view('news');
+});
+
+Route::get('/fans', function () {
+    return view('fans');
+});
+
+Route::get('/collectibles', function () {
+    return view('collectibles');
+});
+
+Route::get('/games', function () {
+    return view('games');
+});
+
+Route::get('/movies', function () {
+    return view('movies');
+});
+
+Route::get('/tvshows', function () {
+    return view('tvshows');
+});
+
+Route::get('/characters', function () {
+    return view('characters');
+});
+
+Route::get('/comics', function () {
+    return view('comics');
+});
+
+
+Route::get('/videos', function () {
+    return view('videos');
+});
+
+Route::get('/shop', function () {
+    return view('shop');
+});
+
+
